@@ -311,7 +311,6 @@ __metadata:
     "@babel/core": ^7.16.0
     "@bazel/bazelisk": ^1.10.1
     "@bazel/buildifier": ^4.0.1
-    "@bazel/concatjs": 4.6.0
     "@bazel/esbuild": 4.6.0
     "@bazel/jasmine": 4.6.0
     "@bazel/protractor": 4.6.0
@@ -1675,25 +1674,6 @@ __metadata:
   bin:
     buildifier: buildifier.js
   checksum: 2b2cc27582b5e3a4b584dd9ab153c2dc37bf8c8eb71881c32fbb34772d7494e9a892f6a530e8c372157f4c200c79d60b96de3867fa6666b1a553e5ac46fed0d1
-  languageName: node
-  linkType: hard
-
-"@bazel/concatjs@npm:4.6.0":
-  version: 4.6.0
-  resolution: "@bazel/concatjs@npm:4.6.0"
-  dependencies:
-    protobufjs: 6.8.8
-    source-map-support: 0.5.9
-    tsutils: 3.21.0
-  peerDependencies:
-    karma: ">=4.0.0"
-    karma-chrome-launcher: ">=2.0.0"
-    karma-firefox-launcher: ">=1.0.0"
-    karma-jasmine: ">=2.0.0"
-    karma-junit-reporter: ">=2.0.0"
-    karma-requirejs: ">=1.0.0"
-    karma-sourcemap-loader: ">=0.3.0"
-  checksum: 94355fa5b0b098e561c62363b1635231f4a4c84d0ea1695425a474dee7f4c630a8fd3717ffacb2f9370cc926bf5641eda2594e7af9177bf2a715635f2bf3650c
   languageName: node
   linkType: hard
 
